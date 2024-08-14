@@ -9,7 +9,6 @@
 - [Fish Setup](#fish-setup)
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
-- [About Me](#about-me)
 
 ## Neovim Setup
 This repository contains my custom setup for Neovim using [LazyVim](https://github.com/LazyVim/LazyVim). The configuration is tailored for an efficient and productive coding environment.
