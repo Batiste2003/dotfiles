@@ -144,6 +144,7 @@ return {
       local fb_actions = require("telescope").extensions.file_browser.actions
 
       opts.defaults = vim.tbl_deep_extend("force", opts.defaults, {
+        file_ignore_patterns = { "node_modules", ".git" },
         wrap_results = true,
         layout_strategy = "horizontal",
         layout_config = { prompt_position = "top" },
